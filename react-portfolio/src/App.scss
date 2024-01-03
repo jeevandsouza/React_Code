@@ -1,0 +1,38 @@
+$primary-color:#ffd700;
+//This line declares a variable named $primary-color and assigns it the value #ffd700. Variables in SCSS are prefixed with a $ sign. 
+//This variable is intended to represent a primary color in the stylesheet, and it can be reused throughout the file.
+
+@import 'animate.css';
+
+@font-face {
+    font-family:'Helvetica Neue';
+    src: url('./assets/fonts/helvetica-neu.ttf') format('ttf');
+    //src: Specifies the URL or path to the font file. The provided path is './assets/fonts/helvetica-neu.ttf'.
+//format: Indicates the format of the font file. It's set to 'ttf' (TrueType Font) in this example.
+}
+
+
+/* A SCSS (Sassy CSS) file is a file written in the SASS (Syntactically Awesome Stylesheets) preprocessor language. SASS is a scripting language that is interpreted 
+or compiled into Cascading Style Sheets (CSS). SCSS is a syntax extension of SASS and is fully compatible with CSS syntax, making it easier for developers to transition 
+from traditional CSS to SASS.
+
+$primary-color: #3498db;
+
+body {
+  background-color: $primary-color;
+}
+
+SCSS supports the use of partials, which are smaller SCSS files that can be included in other SCSS files. This helps organize styles into manageable and modular components.
+// _buttons.scss
+.button {
+  // styles for buttons
+}
+
+// main.scss
+@import 'buttons';
+
+body {
+  // other styles
+}
+
+*/

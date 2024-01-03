@@ -1,0 +1,39 @@
+To start react dev
+
+First download node js and npm from node js (both are bundled together)
+
+ run the below commands
+
+npm init
+npm install create-react-app
+npx create-react-app myapp
+
+install all the libraries needed
+
+npm i @emailjs/browser for email
+
+npm i @fortawesome/free-brands-svg-icons for getting cool icons
+npm i @fortawesome/free-solid-svg-icons
+npm i @fortawesome/react-fontawesome for fonts
+npm i animate.css for animations
+npm i gsap-trial for advanced animations
+npm i loaders.css
+npm i react-leaflet for maps
+npm i sass for styling
+npm i react-router-dom
+
+In a React project, a .prettierrc file is used to configure the formatting rules for your code using Prettier, a popular code formatter. Prettier helps maintain a consistent
+ coding style across your project by automatically formatting your code according to the specified rules.
+
+ JSON doesn't allow comments so adding .pretteirrc below
+ /*
+trailingComma: Specifies how trailing commas should be handled. In this case, "es5" means that trailing commas will be used wherever valid in ES5 (ECMAScript 5) code.
+
+tabWidth: Sets the number of spaces for each indentation level. In this case, it's set to 2 spaces.
+
+semi: Specifies whether to add a semicolon at the end of each statement. In this case, false means that no semicolons will be added.
+
+singleQuote: Enforces the use of single quotes for strings. Setting it to true means that strings will be enclosed in single quotes.
+*/
+
+change app.css to app.scss -> add color font and src
